@@ -1,1 +1,32 @@
-node_modules
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+.env.*
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Build output
+frontend/build/
+frontend/.env.local
+
+# Data / uploads (large binary files — manage separately)
+data/weather.grib
+data/weather.grib.*.idx
+server/uploads/*
+!server/uploads/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Tailwind binary
+tailwindcss.exe
