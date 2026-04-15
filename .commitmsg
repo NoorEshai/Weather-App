@@ -1,0 +1,11 @@
+Add full backend implementation, README, and overlay system
+
+- backend/: FastAPI app with weather, forecast, AQI, location, community, overlay, and upload routes
+- AI summaries via OpenAI/DeepSeek with rule-based fallbacks; ECMWF GRIB + OWM dual-source fetching
+- server/index.cjs: Express upload server for community photos
+- frontend/public/overlays/: manifest + Apple Glass theme tokens for 72 weather GIF overlays
+- download_overlays.py: one-time Giphy GIF downloader
+- README.md: setup guide, API reference, overlay docs, future updates list
+- .gitignore: now excludes venv/, __pycache__/, .env, node_modules/, GRIB data
+
+Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
