@@ -252,6 +252,3 @@ The API returns theme tokens directly so the frontend renders glassmorphism with
 
 ---
 
-## License
-
-MIT
